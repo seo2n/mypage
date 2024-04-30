@@ -1,0 +1,24 @@
+/* 각 페이지의 스타일 */
+.page {
+    height: 100vh;
+    scroll-snap-align: start; /* 스크롤 위치에 페이지를 맞추기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#page1 { background-color: #202234; }
+#page2 { background-color: rgb(66, 52, 100); }
+#page3 { background-color: rgb(43, 43, 134); }
+#page4 { background-color: rgb(43, 84, 134); }
+#page5 { background-color: rgb(98, 174, 193); }
+
+/* 스크롤 컨테이너 */
+body {
+    scroll-snap-type: y mandatory; 
+    overflow-y: scroll; 
+    margin: 0; 
+    padding: 0; 
+}
+
